@@ -2,7 +2,7 @@ const element = document.getElementById('dodger');
 
 document.addEventListener('keydown', (event) => {
   console.log(event);
-  if (event.which === 37) {
+  if (event.which === 37 && element.style.left > 0) {
     // '180px'
     let previousLeft = element.style.left;
     // 180
