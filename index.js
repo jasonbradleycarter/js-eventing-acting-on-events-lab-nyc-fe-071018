@@ -27,10 +27,10 @@ document.addEventListener('keydown', (event) => {
     }
   }  
 });
-}
+// }
 
 
-moveDodgerRight()
+// moveDodgerRight()
 
 
 
