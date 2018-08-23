@@ -30,6 +30,7 @@ function moveDodgerRight(event) {
 }
 
 
+moveDodgerRight()
 
 
 
