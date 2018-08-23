@@ -26,7 +26,7 @@ function moveDodgerRight(event) {
     element.style.left = newRightNumber;
     }
   }  
-})
+});
 }
 
 
