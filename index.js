@@ -14,4 +14,19 @@ document.addEventListener('keydown', (event) => {
   }
 })
 
+function moveDodgerRight(event) {
+  if (event.which === 39) {
+    // '180px'
+    let previousRight = element.style.right;
+    // 180
+    let previosRightNumber = parseInt(previousRight.replace('px', ''), 10);
+    if (previousRightNumber > 0) {
+    let newLeftNumber = (previousRightNumber + 15) + "px";
+    element.style.left = newRightNumber;
+    }
+  }  
+}
+
+
+
 
